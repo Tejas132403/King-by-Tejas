@@ -1,0 +1,30 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f9fa;
+}
+
+.sidebar {
+  min-width: 230px;
+  height: 100vh;
+  position: fixed;
+}
+
+.nav-link {
+  color: #ccc;
+  margin-bottom: 8px;
+}
+
+.nav-link.active, .nav-link:hover {
+  color: #fff;
+  background: rgba(255,255,255,0.1);
+  border-radius: 6px;
+}
+
+#wrapper .p-4 {
+  margin-left: 230px;
+}
+
+.card h3 {
+  font-size: 2rem;
+  color: #222;
+}
